@@ -1,0 +1,175 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ae771f; /* Burnt orange text color */
+    background: #171616; /* Black background color for the body */
+}
+
+/* Header and navigation styling */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(126, 116, 116, 0.8); /* Semi-transparent background */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #ae771f; /* Burnt orange text color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold; /* Makes the text stand out */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition effect */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* Cover page styling */
+.cover-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* Dark background for cover page */
+    color: #fff;
+    text-align: center;
+}
+
+.cover-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.cover-text h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.cover-text p {
+    font-size: 1.5em;
+}
+
+/* About section styling */
+.about-section {
+    background: #333; /* Dark background for about section */
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-photo {
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+/* Skills section styling */
+#skills {
+    padding: 60px 20px;
+    color: #fff;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Projects section styling */
+#projects {
+    padding: 60px 20px;
+    color: #fff;
+}
+
+#projects a {
+    color: #ae771f; /* Burnt orange text color */
+    text-decoration: none;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section styling */
+#contact {
+    padding: 60px 20px;
+    color: #fff;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-top: 10px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #333; /* Dark background for form inputs */
+    color: #fff;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #ae771f; /* Burnt orange background for button */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact button:hover {
+    background: #8c5a2d; /* Darker burnt orange on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
