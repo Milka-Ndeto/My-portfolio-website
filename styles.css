@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #ae771f; /* Burnt orange text color */
+    color: hsl(27, 92%, 47%); /* Burnt orange text color */
     background: #171616; /* Black background color for the body */
 }
 
@@ -13,22 +13,33 @@ header {
     top: 0;
     z-index: 1000;
     background: rgba(126, 116, 116, 0.8); /* Semi-transparent background */
+    padding: 0; /* Remove any unnecessary padding from the header */
 }
 
 nav {
     display: flex;
-    justify-content: flex-end; /* Aligns items to the right */
+    justify-content: flex-end; /* Aligns the navigation to the right */
+    align-items: center;
     padding: 10px 20px;
 }
 
+/* Logo styling */
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: auto; /* Ensures the logo stays on the left */
+    cursor: pointer; /* Shows a pointer cursor on hover */
+}
+
+/* Navigation links styling */
 nav a {
-    color: #ae771f; /* Burnt orange text color */
+    color: hsl(32, 92%, 45%); /* Burnt orange text color */
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px; /* Reduced margin for smaller spacing */
     font-size: 16px;
     font-weight: bold; /* Makes the text stand out */
     transition: color 0.3s, background-color 0.3s; /* Smooth transition effect */
-    padding: 10px;
+    padding: 5px 10px; /* Reduced padding to make the links more compact */
     border-radius: 5px;
 }
 
