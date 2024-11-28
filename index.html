@@ -1,89 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milka Mutiso's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <title>Milka Mutiso Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='styles.css' rel='stylesheet'>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <img src="C:\Users\user\August-Cohort-Hackathon-1-\Milka new logo.png" alt="Milka Mutiso Logo" class="logo">
-            <a href="#home">Home</a>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">My Portfolio.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
         </nav>
     </header>
 
-    <section id="home" class="cover-page">
-        <div class="cover-content">
-            <img src="C:\Users\user\August-Cohort-Hackathon-1-\Milka pic 30.jpg" alt="Milka Mutiso" class="cover-photo">
-            <div class="cover-text">
-                <h1>Milka Mutiso</h1>
-                <p>Data Analyst | UI/UX Designer | Software Developer</p>
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            
+            
+            <h1>Hi, I'm <span>Milka Mutiso</span><span class="animate" style="--i:2;"></span></h1>
+
+           
+            <p> A dedicated, self-assured, and eager learner who is constantly looking for opportunities to pick up
+                new abilities.
+                I aim to leverage my expertise to create user-centered designs and data-driven insights 
+                that enhance user experiences and business outcomes.
+                Additionally, I am passionate about expanding my capabilities in Full-Stack Development, 
+                aiming to contribute to the entire lifecycle of web and mobile applications. 
+               
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/milkamutiso/" class="btn">Hire Me</a>
+                <a href="mailto:mutisomilkan@gmail.com" class="btn">Let's Talk</a>
+                <a href="https://github.com/Milka-Ndeto" class="btn">Projects</a> <!-- Replace with your actual GitHub URL -->
+                <a href="tel:+254704502146" class="btn">Call Me</a>
+                <span class="animate" style="--i:5;"></span>
             </div>
+            
+            
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
         </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
     </section>
 
-    <section id="about" class="about-section">
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="Milka pic 30.jpg" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
         <div class="about-content">
-            <img src="C:\Users\user\August-Cohort-Hackathon-1-\Milka pic 30.jpg" alt="About Me" class="about-photo">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>Hi, I'm Milka Mutiso, a creative problem-solver with a passion for blending data analysis, design, and technology. I thrive at the intersection of art and analytics, combining my love for design with a deep understanding of data to create intuitive, user-centered solutions.</p>
-                <p>What excites me most is the opportunity to leverage technology for social impact, particularly in education and healthcare. I believe in the power of data to drive change and love using it to craft meaningful narratives. Whether diving deep into datasets or sketching out new UI designs, I’m always aiming to create experiences that make a difference.</p>
+            <h3>Hi there! Glad to see you here.<span class="animate scroll" style="--i:3;"></span></h3>
+<p>Hello! Milka Mutiso here, a passionate tech enthusiast!<br>
+    Currently, I am expanding my skills in software development, with a focus on User Research, UI/UX Design, Data Analysis, and Full-Stack Development. My academic background includes a Bachelor’s degree in Economics from the Technical University of Kenya and ongoing studies in Software Development. 
+    I am always eager to apply my knowledge and experience to innovative projects that merge technology with meaningful user experiences.<br>
+   <span class="animate scroll" style="--i:4;"></span>
+</p>
+
+
+
+    </section>
+
+    <!-- Education section design -->
+<section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="education-row">
+        <!-- Education Column -->
+        <div class="education-column">
+            <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+            <div class="education-box">
+
+                <!-- Education Entry 2 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2024 - Present</div>
+                        <h3>Software Development - Power Learn Project</h3>
+                        <p>Learning programming languages (Python, HTML, CSS), data analysis, and project management tools (Jira, Trello, Asana) to build a solid foundation in software development.</p>
+                    </div>
+                </div>
+
+                <!-- Education Entry 1 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2015 - 2019</div>
+                        <h3>Bachelor of Economics - Technical University of Kenya</h3>
+                        <p>Graduated with Second Class Honors (Upper Division). Gained a strong foundation in economics with a focus on policy analysis and economic modeling.</p>
+                    </div>
+                </div>
+
+                
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+        </div>
+
+        <!-- Experience Column -->
+        <div class="education-column">
+            <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+            <div class="education-box">
+                <!-- Experience Entry 1 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> November 2023 - Present</div>
+                        <h3>User Research and Design  - The Advent Band</h3>
+                        <p>Managed and mentored a team of four designers and researchers, utilizing data to inform design decisions and enhance user experiences.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Entry 2 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> June 2021 - August 2024</div>
+                        <h3>Operations Officer - Guaranty Trust Bank (Kenya) Ltd</h3>
+                        <p>Spearheaded the design and launch of digital financial products, including MPesa e-float service, and conducted user research to improve customer interaction with digital platforms.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Entry 3 -->
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> September 2019 - March 2020</div>
+                        <h3>Monitoring and Evaluation Intern - National Treasury & Planning (Public Financial Management Reform Secretariat)</h3>
+                        <p>Supported the development of M&E frameworks and conducted process and outcome monitoring to evaluate project implementation across various government departments.</p>
+                    </div>
+                </div>
+
+                <span class="animate scroll" style="--i:6;"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>45%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class ="progress">
+                            <h3>Web Development <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>SQL  <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Technical Writing <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Data Analysis (Excel, SQL, Power BI)</li>
-            <li>User Research and User Experience Design</li>
-            <li>UI Prototyping (Figma, Canva)</li>
-            <li>Project Management</li>
-            <li>HTML, CSS, JavaScript (beginner)</li>
-        </ul>
-    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>Project 1: Data Analysis with Python</h3>
-        <p>This project involves analyzing data with Python to identify and understand trends. It includes data cleaning, visualization, and generating insights to guide decision-making.</p>
-        <a href="https://shorturl.at/E87rL" target="_blank">View Project</a>
-        
-        <h3>Project 2: Database Management System for Telemedicine</h3>
-        <p>Developed a comprehensive database management system for a telemedicine project, ensuring efficient data storage, retrieval, and management to support healthcare services.</p>
-        <a href="https://shorturl.at/pKdO5" target="_blank">View Project</a>
-    </section>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
 
-    <section id="contact">
-        <h2>Let's Work Together</h2>
-        <p>Email: <a href="mailto:mutisomilkan@gmail.com">mutisomilkan@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/milkamutiso/" target="_blank">LinkedIn</a></p>
-        <p>CV: <a href="https://drive.google.com/file/d/1vpUoLXTvk4Sw7x12uu0GfVV-L7aiMzEh/view?usp=sharing" target="_blank">View CV</a></p>
-        
-        <form action="your-server-side-script.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit">Send Message</button>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
         </form>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Milka Mutiso. All Rights Reserved.</p>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | Milka Mutiso | All
+                Rights Reserved</p>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
     </footer>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
